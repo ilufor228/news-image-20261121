@@ -3,6 +3,7 @@ import os
 import sys
 
 def main():
+    # Output directory handling for make.fun submission
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
     
